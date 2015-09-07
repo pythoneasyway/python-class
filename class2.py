@@ -1,5 +1,12 @@
 #!/usr/bin/python
-# pythoneasyway@gmail.com
+#: Title        : class2.py
+#: Date         : 
+#: Author       : pythoneasyway@gmail.com
+#: Description  : Class number 2
+#:                - string multiplication '*'
+#:                - functions: raw_input(), int(), range(), len()
+#:                - turtle functions: showturtle(), speed(), forward(), right(), color(), backward(), left(), circle()
+#: Version      : 1.0
 
 # raw_input() read imput from the console and store it in the variable
 dollars_per_day = raw_input("enter the dollars per day: ")
@@ -28,21 +35,27 @@ print "your history has: ", len(text2), "letters"
 # using t for simplicity
 import turtle as t
 
-# speed 0 or over 10 is the fastest
+# speed could be between 0-9 
 t.speed(0)
+
 # showing the turtle
 t.showturtle()
+
 # moving forward 200 pixels
 t.forward(200)
+
 # turning right 90 degrees
 t.right(90)
+
 t.forward(200)
 t.right(90)
 t.forward(200)
 t.right(90)
 t.forward(200)
+
 # setting color to blue
 t.color("blue")
+
 t.forward(200)
 t.right(90)
 t.forward(200)
@@ -51,13 +64,17 @@ t.forward(200)
 t.right(90)
 t.forward(200)
 t.forward(200)
+
 # moving backward 200 pixels
 t.backward(200)
+
 t.color("red")
 t.forward(200)
 t.right(90)
+
 # turning left 180 degrees
 t.left(180)
+
 t.forward(200)
 t.left(180)
 t.right(90)
@@ -77,6 +94,7 @@ t.right(90)
 t.forward(200)
 # drawing a circle with radius 300 and so on
 t.circle(300)
+
 t.circle(100)
 t.circle(200)
 t.circle(50)
@@ -84,5 +102,6 @@ t.circle(25)
 t.circle(6)
 t.circle(3)
 t.circle(1)
+
 # turtle stops with done 
 t.done()

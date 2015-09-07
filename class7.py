@@ -1,6 +1,11 @@
 #!/usr/bin/python
-# pythoneasyway@gmail.com
-# exercises with loops while and for
+#: Title        : class7.py
+#: Date         : 
+#: Author       : pythoneasyway@gmail.com
+#: Description  : Class number 7
+#:                - exercises with while and for
+#:                - new functions: find(), choice(). turtle functions: Pen()
+#: Version      : 1.0
 
 # choose a number lower than 12345678
 while True:
@@ -95,20 +100,27 @@ t.circle(100)
 t2.circle(100)
 
 import random as r
+
 # create a list with colors
 colors = ['red','blue','yellow','green','purple','black', "brown", "pink", "light blue", "tan"]
+
 # drawing inside a loop
 for i in range(1,20):
     # pensize() change the size of the pen 
     # in this case it will be a random number between 1 and 10
     t3.pensize(r.randint(1,10))
+
     # generates a random number between 100 and 400
     size = r.randint(100,400)
+    
     # title of the window will be the size concatenated with the times of execution 
     t.title("Size:"+str(size)+" Times "+str(i))
+    
     # creates a circle with so many steps as the current 'i' index 
     t3.circle(size, steps = i)
+    
     # choice(), Return a random element from the non-empty sequence
     # in this case choose a color from the list colors randomly
     t3.color(r.choice(colors))
+
 t.done()

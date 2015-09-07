@@ -1,9 +1,18 @@
 #!/usr/bin/python
-# pythoneasyway@gmail.com
+#: Title        : class3.py
+#: Date         : 
+#: Author       : pythoneasyway@gmail.com
+#: Description  : Class number 3
+#:                - conditionals: if; elif; else
+#:                - functions: replace(), range()
+#: Version      : 1.0
+
 text = raw_input("enter some text: ")
 print text
+
 # replace() a string with a new string
 print text.replace("john", "rambo")
+
 # a	 4
 # e	 3
 # i	 1
@@ -14,11 +23,14 @@ pass1 = password.replace("a", "4")
 pass2 = pass1.replace("e", "3")
 pass3 = pass2.replace("i", "1")
 pass4 = pass3.replace("o", "0")
-pass5 = pass4.replace(" ", "") # replace space for nonspace
+
+# replace space for nonspace
+pass5 = pass4.replace(" ", "") 
 final_pass = pass5.replace("u", "2")
 print "Your secure password is: ", final_pass
 
 money = raw_input("how much money do you have? ")
+
 # int() return an integer object constructed from a number or string
 # "if" is used for decision making
 # If the condition is true, then do the indented statements. 

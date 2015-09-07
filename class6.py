@@ -1,6 +1,12 @@
 #!/usr/bin/python
-# pythoneasyway@gmail.com
-# loops and lists examples
+#: Title        : class6.py
+#: Date         : 
+#: Author       : pythoneasyway@gmail.com
+#: Description  : Class number 6
+#:                - loops: for and while
+#:		  - breaking loops: brake
+#:                - lists functions: append(), remove(), sort()
+#: Version      : 1.0
 
 for i in range(1,10):
     print "John ", i
@@ -8,10 +14,12 @@ for i in range(1,10):
 # my current weight and height
 my_weight = 53
 my_height = 127
+
 # using for to calculate "possible" weight :)
 for i in range(9,35):
      my_weight = my_weight + 2.5
      print "my weight when i am ", i, " is going to be", my_weight, "pounds"
+
 # using for to calculate "possible" height :)
 for i in range(9,21):
     my_height = my_height + 5
@@ -75,8 +83,9 @@ print "MY FIRST GUESSING GAME"
 import random as r
 # generates a random number between 1 and 999
 number = r.randint(1,1000)
+
 # generates a random number between 1 and 10
-ticket = r.randint(1,10)
+ticket = r.randint(1,11)
 n = 0
 
 # A while loop statement in Python programming language repeatedly 

@@ -1,5 +1,13 @@
 #!/usr/bin/python
-# define 2 lists to work with
+#: Title        : class8.py
+#: Date         : 
+#: Author       : pythoneasyway@gmail.com
+#: Description  : Class number 8
+#:                - exercises with lists
+#:                - adding steps into circle() to change the shape
+#: Version      : 1.0
+
+# define 2 lists
 even_list = list()
 odd_list = list()
 
@@ -17,8 +25,10 @@ print "the even numbers are ", even_list
 
 # import everything from the file colors_lib
 from colors_lib import *
+
 # print out the color_list defined in the previous imported module
 print color_list
+
 # total of colors
 print "the total of colors is", len(color_list)
 
@@ -51,7 +61,9 @@ for i in color_list:
         t.bgcolor(i)
     # print in the title the color's name and the number of the color.
     t.title(i+" "+str(index))
+
     t.speed(0)
     index = index +1 
+
 # finish
 t.done()

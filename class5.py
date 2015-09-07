@@ -1,8 +1,12 @@
 #!/usr/bin/python
-# pythoneasyway@gmail.com
-# manipulating strings
-# string slicing
-# string comparision
+#: Title        : class5.py
+#: Date         : 
+#: Author       : pythoneasyway@gmail.com
+#: Description  : Class number 5 
+#:                - using strings, string slicing, string comparision
+#:                - functions: randint(). turtle functions: title()
+#:		  - random numbers
+#: Version      : 1.0
 
 b = "buy me a big screen TV"
 p = "You are poor. Get a better job."
@@ -32,6 +36,7 @@ else:
 import random as r
 
 nums = raw_input("enter a range of numbers between 1 and your range: ")
+
 # For loops are traditionally used when you have a piece of code which you want to repeat n number of times
 # print 10 random numbers with their index
 for i in range(1,11):
